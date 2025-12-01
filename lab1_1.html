@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Робота з діалоговими вікнами</title>
+	</head>
+	<body>
+		<script> 
+			"use strict";
+			alert("Привіт, це моє перше діалогове вікно"); 
+			const answer=confirm("Бажаєте познайомитись? Мене звати Мілана");
+			if (answer) {
+				const name=prompt ("Введіть ваше ім'я", ""); 
+				alert(name + ", Приємно познайомитись!!");
+			} 
+			else alert ("Шкода, можна було б ще попрацювати!");
+		</script>
+	</body>
+</html>

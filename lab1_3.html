@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Довжина кола</title>
+	</head>
+	<body>
+		<script> 
+			"use strict";
+			
+			let r = parseFloat(prompt("Введіть радіус кола r:", ""));
+			
+			let d = 2 * r;               // діаметр
+			let L = 2 * Math.PI * r;      // довжина кола
+			
+			alert("Результати обчислення:");
+			alert("Радіус = " + r);
+			alert("Довжина кола = " + L.toFixed(2));
+			alert("Формула: L = 2 · π · r");
+		</script>
+	</body>
+</html>
